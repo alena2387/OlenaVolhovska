@@ -1,0 +1,29 @@
+        p {
+           color: darkblue;
+           font-size: 30px;
+           text-align: center;
+           line-height: 1.6;
+		}
+
+
+        div {
+           color: skyblue;
+           font-size: 30px;
+           text-align: center;
+           line-height: 1.6;	
+        }
+
+        .cool {
+           color: darkkhaki;
+           font-size: 30px;
+           text-align: center;
+           line-height: 1.6;
+
+        }
+
+        #boldtext {
+           color: rgb(59, 86, 128);
+           font-size: 30px;
+           text-align: center;
+           line-height: 1.6;
+        }
