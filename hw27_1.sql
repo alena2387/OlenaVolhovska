@@ -15,11 +15,11 @@ foreign key (carBrandId) references car_brands(id)
 use hw27_1;
 create table users (
 id int auto_increment primary key,
-firstName int not null,
-lastName int not null,
-email varchar(144) not null,
-password int not null,
-foreign key (firstName) references cars(id)
+firstName varchar(255) not null,
+lastName varchar(255) not null,
+email varchar(255) not null,
+password varchar(255) not null,
+foreign key (firstName) references users(id)
 );
 
 use hw27_1;
