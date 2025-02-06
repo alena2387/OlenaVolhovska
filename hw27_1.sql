@@ -18,8 +18,7 @@ id int auto_increment primary key,
 firstName varchar(255) not null,
 lastName varchar(255) not null,
 email varchar(255) not null,
-password varchar(255) not null,
-foreign key (firstName) references users(id)
+password varchar(255) not null
 );
 
 use hw27_1;
